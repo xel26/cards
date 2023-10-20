@@ -8,13 +8,13 @@ function card(product) {
           <img src=${product.img}>
           <div class="grid">
               <div class="left-grid">
-                  <a href=${product.links[0]} class="link"></a>
-                  <a href=${product.links[1]} class "link"></a>
-                  <a href=${product.links[2]} class="link"></a>
+                  <a href=${product.links[0]} class="link" target="_blank"></a>
+                  <a href=${product.links[1]} class "link" target="_blank"></a>
+                  <a href=${product.links[2]} class="link" target="_blank"></a>
               </div>
               <div class="right-grid">
-                  <a href=${product.links[3]} class="link"></a>
-                  <a href=${product.links[4]} class="link"></a>
+                  <a href=${product.links[3]} class="link" target="_blank"></a>
+                  <a href=${product.links[4]} class="link" target="_blank"></a>
               </div>
           </div>
       </div>
