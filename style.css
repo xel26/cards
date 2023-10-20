@@ -60,14 +60,14 @@
     position: relative;
     transition: 0.3s ease;
   }
+  .card:hover {
+    box-shadow: 1px 3px 12px 1px rgba(0, 0, 0, 0.3);
+    transform: translate(-1px, -5px);
+  }
   img {
     position: absolute;
     min-width: 16rem;
     height: 24rem;
-  }
-  .card:hover {
-    box-shadow: 1px 3px 12px 1px rgba(0, 0, 0, 0.3);
-    transform: translate(-1px, -5px);
   }
   .grid {
     position: absolute;
