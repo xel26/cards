@@ -31,6 +31,17 @@ const Products = [
             "https://s.lazada.co.id/s.NRRaS?cc",
             "https://s.lazada.co.id/s.NRmX7?cc"
         ]
+    },
+    {
+        img: "products/card4.png",
+        category: "denim",
+        links: [
+            "https://s.lazada.co.id/s.NRnKd?cc",
+            "https://s.lazada.co.id/s.Niq4Q?cc",
+            "https://s.lazada.co.id/s.NROFp?cc",
+            "https://s.lazada.co.id/s.NRPP9?cc",
+            "https://s.lazada.co.id/s.NR8QI?cc"
+        ]
     }
 ]
 

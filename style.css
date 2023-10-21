@@ -1,26 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica;
+    transition: .5s;
   }
+
   .container {
     min-height: 100vh;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    padding: 1rem;
-    margin-top: 2rem;
-  }
-  #header {
-    position: absolute;
-    top: 0.5rem;
+    justify-content: center;
+    align-items: center;
   }
 
+  .content{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+    gap: 3rem;
+  }
+
+
+
+
+/* header start */
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-left,
+.header-right,
+.links{
+  display: flex;;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-left{
+  gap: 1rem;
+}
+
+.logo h1{
+  font-family: 'Dela Gothic One';
+  padding: .5rem;
+}
+
+.logo:hover h1{
+  box-shadow: 1px 3px 12px 1px rgba(0, 0, 0, 0.3);
+}
+
+.links{
+  gap: .5rem;
+}
+
+.title-links{
+  background-color: black;
+  color: white;
+  padding: .5rem;
+}
+
+.title-links:hover{
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 1px 3px 12px 1px rgba(0, 0, 0, 0.3);
+}
+
+.social-media{
+  display: flex;
+  gap: 1rem;
+  height: 30px;
+}
+
+.social-media a{
+  text-align: center;
+}
+
+i{
+  font-size: 30px;
+  transition: .5s;
+  width: 35px;
+}
+
+i:hover{
+  font-size: 35px;
+}
+
+.links a:nth-child(2) i {
+  color: black;
+}
+
+.links a:nth-child(1) i,
+.links a:nth-child(3) i{
+  color: #bc0a0a;
+}
+
+.header-middle{
+  box-shadow: 1px 3px 12px 1px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+
+.header-middle:hover{
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+.choose-product{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.choose-product h1,
+.category h1{
+  font-family: 'Yatra One';
+}
+
+.choose-product h1:nth-child(1){
+  border: 5px solid black;
+  width: fit-content;
+  padding: 0 .5rem;
+}
+
+.choose-product h1:nth-child(1):hover{
+  box-shadow: -6px 7px 3px 2px rgba(0, 0, 0, 0.3);
+  transform: translateX(5px);
+  transform: translateY(-3px);
+}
+
+.choose-product h1:nth-child(2){
+  font-size: 2.5rem;
+  background-color: #000000;
+  color: white;
+  width: fit-content;
+  padding: .5rem 1rem;
+}
+
+.choose-product h1:nth-child(2):hover{
+  box-shadow: 7px 6px 3px 2px rgba(0, 0, 0, 0.3);
+  transform: translateX(6px);
+  transform: translateY(-10px);
+}
+/* header end */
+
+
+
+
+
+/* cards start */
+  
   /* 
-    - scroll ke bawah
-    - height wrapper dan flex-wrap yang mempengaruhi tampilan
+    - SCROLL KE BAWAH :
+    - height .wrapper dan flex-wrap yang mempengaruhi tampilan
     */
   /* 
     .wrapper{
@@ -41,34 +181,77 @@
     */
 
   /* 
-        - scroll ke samping
+        - SCROLL KE SAMPING :
         - min-width card yang mempengaruhi tampilan
     */
+
+  .wrapper-category{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem;
+  }
+
+  .category{
+    flex: 1;
+    text-align: center;
+  }
+
+  .category h1{
+    border: 5px solid black;
+  }
+
+  .wrapper-category:nth-child(even) .category h1:hover,
+  .wrapper-category:nth-child(odd) .card:hover{
+    box-shadow: -6px 7px 3px 2px rgba(0, 0, 0, 0.3);
+    transform: translateX(5px);
+    transform: translateY(-3px);
+  }
+
+  .wrapper-category:nth-child(odd) .category h1{
+    background-color: #000000;
+    color: white;
+  }
+
+  .wrapper-category:nth-child(odd) .category h1:hover,
+  .wrapper-category:nth-child(even) .card:hover{
+    box-shadow: 7px 6px 3px 2px rgba(0, 0, 0, 0.3);
+    transform: translateX(6px);
+    transform: translateY(-10px);
+  }
+
   .wrapper-card {
     height: 100%;
-    width: 100%;
+    width: 70%;
     display: flex;
     overflow: auto;
     gap: 1rem;
-    border: 5px double black;
+    /* box-shadow: (kiri-kanan)px (atas-bawah)px (blur)px (lebar)px color */
     box-shadow: 1px 3px 12px 1px rgba(0, 0, 0, 0.3);
     padding: 1rem;
+    background-color: #fff;
   }
+
+  .wrapper-card:hover{
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+  }
+
+  /* .card dan img harus pakai min-width kalau tidak gambarnya akan bertumpuk */
   .card {
-    min-width: 16rem;
-    height: 24rem;
+    min-width: 14rem;
+    height: 22rem;
     position: relative;
     transition: 0.3s ease;
   }
-  .card:hover {
-    box-shadow: 1px 3px 12px 1px rgba(0, 0, 0, 0.3);
-    transform: translate(-1px, -5px);
-  }
+
   img {
     position: absolute;
-    min-width: 16rem;
-    height: 24rem;
+    min-width: 14rem;
+    height: 22rem;
   }
+
   .grid {
     position: absolute;
     display: flex;
@@ -76,14 +259,149 @@
     height: 94%;
     bottom: 0;
   }
+
   .left-grid {
     width: 50%;
     height: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
   }
+
   .right-grid {
     flex: 1;
     display: grid;
     grid-template-rows: 1fr 1fr;
   }
+
+  .wrapper-category a{
+    opacity: 0.5;
+  }
+  /* cards end */
+
+
+
+
+
+  /* responsive start */
+  @media (max-width: 1147px){
+    .category h1{
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (max-width: 923px){
+    .category h1{
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 900px){
+    .logo h1,
+    .header-middle h1,
+    .choose-product h1:nth-child(1),
+    .choose-product h1:nth-child(2){
+      font-size: 1.5rem;
+    }
+    
+    .title-links{
+      font-size: .8rem;
+    }
+
+    .wrapper-category{
+      gap: 1rem;
+    }
+  }
+
+  @media (max-width: 670px){
+    .content{
+      width: 95%;
+      margin: 2rem 0;
+    }
+  }
+
+  @media (max-width: 635px){
+    .header{
+      gap: 2rem;
+    }
+
+    .choose-product{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .wrapper-category{
+      flex-direction: column;
+    }
+
+    .wrapper-category:nth-child(odd){
+      flex-direction: column-reverse;
+    }
+  }
+
+  @media (max-width: 450px){
+    .wrapper-card{
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 350px){
+    .logo h1,
+    .header-middle h1,
+    .choose-product h1:nth-child(1),
+    .choose-product h1:nth-child(2){
+      font-size: 1.2rem;
+    }
+
+    .logo h1,
+    .title-links{
+      padding: .3rem;
+    }
+
+    .social-media{
+      gap: .5rem;
+      justify-content: center;
+    }
+
+    i{
+      font-size: 25px;
+    }
+
+    i:hover{
+      font-size: 30px;
+    }
+
+    .header-left{
+      gap: .3rem;
+    }
+
+    .header-middle{
+      padding: .5rem;
+    }
+
+    .choose-product{
+      gap: .8rem;
+    }
+
+    .choose-product h1:nth-child(1){
+      padding: 0 .2rem;
+    }
+
+    .choose-product h1:nth-child(2){
+      padding: .2rem .5rem;
+    }
+
+    .logo:hover h1,
+    .title-links:hover{
+      box-shadow: 1px 3px 12px .5px rgba(0, 0, 0, 0.3);
+    }
+
+    .choose-product h1:nth-child(1):hover{
+      box-shadow: -3px 4px 3px 1px rgba(0, 0, 0, 0.3);
+    }
+
+    .choose-product h1:nth-child(2):hover{
+      box-shadow: 4px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    }
+  }
+  /* responsive end */

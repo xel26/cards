@@ -1,6 +1,7 @@
 import { Products } from "./products.js";
 const wrapperCream = document.querySelector(".wrapper-cream");
 const wrapperMint = document.querySelector(".wrapper-mint");
+const wrapperDenim = document.querySelector(".wrapper-denim");
 
 function card(product) {
   return `
@@ -24,7 +25,9 @@ function card(product) {
 Products.forEach((product) => {
     if(product.category == "cream"){
         wrapperCream.innerHTML += card(product)
-    }else {
+    }else if(product.category == "mint"){
         wrapperMint.innerHTML += card(product)
+    }else if(product.category == "denim"){
+        wrapperDenim.innerHTML += card(product)
     }
 });
