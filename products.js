@@ -64,6 +64,17 @@ const Products = [
             "https://s.lazada.co.id/s.NRR3e?cc",
             "https://s.lazada.co.id/s.NinVY?cc"
         ]
+    },
+    {
+        img: "products/card7.png",
+        category: "mint",
+        links: [
+            "https://s.lazada.co.id/s.NRnMq?cc",
+            "https://s.lazada.co.id/s.NiqWm?cc",
+            "https://s.lazada.co.id/s.NROjg?cc",
+            "https://s.lazada.co.id/s.NiPeV?cc",
+            "https://s.lazada.co.id/s.NipWg?cc"
+        ]
     }
 ]
 

@@ -9,7 +9,7 @@ function card(product) {
           <img src=${product.img}>
           <div class="grid">
               <div class="left-grid">
-                  <a href=${product.links[0]} class="link" target="_blank"><span></span></a>
+                  <a href=${product.links[0]} class="link" target="_blank"></a>
                   <a href=${product.links[1]} class "link" target="_blank"></a>
                   <a href=${product.links[2]} class="link" target="_blank"></a>
               </div>

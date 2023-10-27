@@ -272,11 +272,35 @@ i:hover{
     display: grid;
     grid-template-rows: 1fr 1fr;
   }
-
-  .wrapper-category a{
-    opacity: 0.5;
-  }
   /* cards end */
+
+
+
+
+
+  /* debugging */
+
+  /* .wrapper-category a{
+    border: 1px solid black;
+  }
+
+  .left-grid a:nth-child(1){
+    background-color: #00ffff24;
+  }
+  .left-grid a:nth-child(2){
+    background-color: #f700ff24;
+  }
+  .left-grid a:nth-child(3){
+    background-color: #88ff0024;
+  }
+  .right-grid a:nth-child(1){
+    background-color: #ff8c0024;
+  }
+  .right-grid a:nth-child(2){
+    background-color: #ff004424;
+  } */
+  
+  /* debugging */
 
 
 
