@@ -27,7 +27,7 @@ const Products = [
         links: [
             "https://s.lazada.co.id/s.NRnHC?cc",
             "https://s.lazada.co.id/s.NiKzA?cc",
-            "https://s.lazada.co.id/s.NiKYw",
+            "https://s.lazada.co.id/s.NLu8C?cc",
             "https://s.lazada.co.id/s.NRRaS?cc",
             "https://s.lazada.co.id/s.NRmX7?cc"
         ]
@@ -74,6 +74,39 @@ const Products = [
             "https://s.lazada.co.id/s.NROjg?cc",
             "https://s.lazada.co.id/s.NiPeV?cc",
             "https://s.lazada.co.id/s.NipWg?cc"
+        ]
+    },
+    {
+        img: "products/card8.png",
+        category: "rose",
+        links: [
+            "https://s.lazada.co.id/s.NRnrp?cc",
+            "https://s.lazada.co.id/s.Niqbv?cc",
+            "https://s.lazada.co.id/s.NROCp?cc",
+            "https://s.lazada.co.id/s.NRjCp?cc",
+            "https://s.lazada.co.id/s.NioFb?cc"
+        ]
+    },
+    {
+        img: "products/card9.png",
+        category: "mint",
+        links: [
+            "https://s.lazada.co.id/s.NRnDa?cc",
+            "https://s.lazada.co.id/s.NiKsP?cc",
+            "https://s.lazada.co.id/s.NROCp?cc",
+            "https://s.lazada.co.id/s.NRjCp?cc",
+            "https://s.lazada.co.id/s.NioIz?cc"
+        ]
+    },
+    {
+        img: "products/card10.png",
+        category: "denim",
+        links: [
+            "https://s.lazada.co.id/s.NRnHC?cc",
+            "https://s.lazada.co.id/s.NiKD7?cc",
+            "https://s.lazada.co.id/s.NLu8C?cc",
+            "https://s.lazada.co.id/s.NR8bm?cc",
+            "https://s.lazada.co.id/s.NioO0?cc"
         ]
     }
 ]
