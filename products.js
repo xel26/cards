@@ -108,6 +108,28 @@ const Products = [
             "https://s.lazada.co.id/s.NR8bm?cc",
             "https://s.lazada.co.id/s.NioO0?cc"
         ]
+    },
+    {
+        img: "products/card11.png",
+        category: "cream",
+        links: [
+            "https://s.lazada.co.id/s.NRnFA?cc",
+            "https://s.lazada.co.id/s.Niq2V?cc",
+            "https://s.lazada.co.id/s.NROeu?cc",
+            "https://s.lazada.co.id/s.NR7kX?cc",
+            "https://s.lazada.co.id/s.NipOH?cc"
+        ]
+    },
+    {
+        img: "products/card12.png",
+        category: "dark",
+        links: [
+            "https://s.lazada.co.id/s.NRngN?cc",
+            "https://s.lazada.co.id/s.Niq1r?cc",
+            "https://s.lazada.co.id/s.NR8CM?cc",
+            "https://s.lazada.co.id/s.NRRnw?cc",
+            "https://s.lazada.co.id/s.NRj9j?cc"
+        ]
     }
 ]
 
