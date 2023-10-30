@@ -130,6 +130,17 @@ const Products = [
             "https://s.lazada.co.id/s.NRRnw?cc",
             "https://s.lazada.co.id/s.NRj9j?cc"
         ]
+    },
+    {
+        img: "products/card13.png",
+        category: "dark",
+        links: [
+            "https://s.lazada.co.id/s.NRnMq?cc",
+            "https://s.lazada.co.id/s.NiqIh?cc",
+            "https://s.lazada.co.id/s.NROUV?cc",
+            "https://s.lazada.co.id/s.NRRTC?cc",
+            "https://s.lazada.co.id/s.NR7hV?cc"
+        ]
     }
 ]
 
