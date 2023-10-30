@@ -141,6 +141,17 @@ const Products = [
             "https://s.lazada.co.id/s.NRRTC?cc",
             "https://s.lazada.co.id/s.NR7hV?cc"
         ]
+    },
+    {
+        img: "products/card14.png",
+        category: "lavender",
+        links: [
+            "https://s.lazada.co.id/s.NRnMq?cc",
+            "https://s.lazada.co.id/s.Niqbv?cc",
+            "https://s.lazada.co.id/s.Nqbjh?cc",
+            "https://s.lazada.co.id/s.NRj2o?cc",
+            "https://s.lazada.co.id/s.Ni95Y?cc"
+        ]
     }
 ]
 
