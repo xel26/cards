@@ -152,6 +152,28 @@ const Products = [
             "https://s.lazada.co.id/s.NRj2o?cc",
             "https://s.lazada.co.id/s.Ni95Y?cc"
         ]
+    },
+    {
+        img: "products/card15.png",
+        category: "mint",
+        links: [
+            "https://s.lazada.co.id/s.NRne1?cc",
+            "https://s.lazada.co.id/s.NiqNP?cc",
+            "https://s.lazada.co.id/s.NROzh?cc",
+            "https://s.lazada.co.id/s.NR7bC?cc",
+            "https://s.lazada.co.id/s.NipVA?cc"
+        ]
+    },
+    {
+        img: "products/card16.png",
+        category: "sunkist",
+        links: [
+            "https://s.lazada.co.id/s.NRnMq?cc",
+            "https://s.lazada.co.id/s.NiqHq?cc",
+            "https://s.lazada.co.id/s.NR8AD?cc",
+            "https://s.lazada.co.id/s.NRj2o?cc",
+            "https://s.lazada.co.id/s.NR8mJ?cc"
+        ]
     }
 ]
 

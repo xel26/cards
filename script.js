@@ -5,6 +5,7 @@ const wrapperDenim = document.querySelector(".wrapper-denim");
 const wrapperRose = document.querySelector(".wrapper-rose");
 const wrapperDark = document.querySelector(".wrapper-dark");
 const wrapperLavender = document.querySelector(".wrapper-lavender");
+const wrapperSunkist = document.querySelector(".wrapper-sunkist");
 
 function card(product) {
   return `
@@ -38,5 +39,7 @@ Products.forEach((product) => {
         wrapperDark.innerHTML += card(product)
     }else if(product.category == "lavender"){
         wrapperLavender.innerHTML += card(product)
+    }else if(product.category == "sunkist"){
+        wrapperSunkist.innerHTML += card(product)
     }
 });
