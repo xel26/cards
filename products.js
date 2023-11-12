@@ -174,6 +174,17 @@ const Products = [
             "https://s.lazada.co.id/s.NRj2o?cc",
             "https://s.lazada.co.id/s.NR8mJ?cc"
         ]
+    },
+    {
+        img: "products/card17.png",
+        category: "rose",
+        links: [
+            "https://s.lazada.co.id/s.nYwr5?cc",
+            "https://s.lazada.co.id/s.NiKEC?cc",
+            "https://s.lazada.co.id/s.NR7rU?cc",
+            "https://s.lazada.co.id/s.NRRaS?cc",
+            "https://s.lazada.co.id/s.NRRvl?cc"
+        ]
     }
 ]
 
