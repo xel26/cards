@@ -185,6 +185,17 @@ const Products = [
             "https://s.lazada.co.id/s.NRRaS?cc",
             "https://s.lazada.co.id/s.NRRvl?cc"
         ]
+    },
+    {
+        img: "products/card18.png",
+        category: "cream",
+        links: [
+            "#",
+            "https://s.lazada.co.id/s.Niqw0?cc",
+            "https://s.lazada.co.id/s.NR8AD?cc",
+            "https://s.lazada.co.id/s.NR7XE?cc",
+            "https://s.lazada.co.id/s.nc5TL?cc"
+        ]
     }
 ]
 
