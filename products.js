@@ -196,6 +196,17 @@ const Products = [
             "https://s.lazada.co.id/s.NR7XE?cc",
             "https://s.lazada.co.id/s.nc5TL?cc"
         ]
+    },
+    {
+        img: "products/card19.png",
+        category: "dark",
+        links: [
+            "#",
+            "https://s.lazada.co.id/s.ncFQV?cc",
+            "https://s.lazada.co.id/s.ncFLF?cc",
+            "https://s.lazada.co.id/s.NR7XE?cc",
+            "https://s.lazada.co.id/s.ncFOp?cc"
+        ]
     }
 ]
 
