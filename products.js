@@ -176,17 +176,6 @@ const Products = [
         ]
     },
     {
-        img: "products/card17.png",
-        category: "rose",
-        links: [
-            "https://s.lazada.co.id/s.nYwr5?cc",
-            "https://s.lazada.co.id/s.NiKEC?cc",
-            "https://s.lazada.co.id/s.NR7rU?cc",
-            "https://s.lazada.co.id/s.NRRaS?cc",
-            "https://s.lazada.co.id/s.NRRvl?cc"
-        ]
-    },
-    {
         img: "products/card18.png",
         category: "cream",
         links: [
@@ -206,6 +195,17 @@ const Products = [
             "https://s.lazada.co.id/s.ncFLF?cc",
             "https://s.lazada.co.id/s.NR7XE?cc",
             "https://s.lazada.co.id/s.ncFOp?cc"
+        ]
+    },
+    {
+        img: "products/card20.png",
+        category: "denim",
+        links: [
+            "https://s.lazada.co.id/s.ndThh?cc",
+            "https://s.lazada.co.id/s.ndTai?cc",
+            "https://s.lazada.co.id/s.ndTkg?cc",
+            "https://s.lazada.co.id/s.ndgvL?cc",
+            "https://s.lazada.co.id/s.NRROp?cc"
         ]
     }
 ]
